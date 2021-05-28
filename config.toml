@@ -1,6 +1,6 @@
 baseURL = "http://abishekkumar.me/"
 title = "Portfolio"
-theme = "uBlogger"
+theme = "myBlogger"
 themesDir = "./themes"
 defaultContentLanguage = "en"
 

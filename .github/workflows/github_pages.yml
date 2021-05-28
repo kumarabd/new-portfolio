@@ -26,8 +26,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: kumarabd/portfolio
-          publish_dir: ./public
+          external_repository: kumarabd/new-portfolio
+          publish_dir: ./.
           #   keep_files: true
           user_name: kumarabd
           user_email: abishekkumar92@gmail.com

@@ -4,10 +4,10 @@ baseURL = "https://ublogger.netlify.app/"
 defaultContentLanguage = "en"
 # theme
 # 主题
-theme = "uBlogger"
+theme = "myBlogger"
 # themes directory
 # 主题目录
-themesDir = "../.."
+themesDir = "../../."
 
 # website title
 # 网站标题

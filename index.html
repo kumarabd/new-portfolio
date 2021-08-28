@@ -103,13 +103,13 @@
                             <span class="link-text">Resume</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="#portfolio" class="nav-anim">
+                            <span class="menu-icon lnr lnr-briefcase"></span>
+                            <span class="link-text">Portfolio</span>
+                        </a>
+                    </li>
                     <!--<li>
-                <a href="#portfolio" class="nav-anim">
-                  <span class="menu-icon lnr lnr-briefcase"></span>
-                  <span class="link-text">Portfolio</span>
-                </a>
-              </li>
-              <li>
                 <a href="#blog" class="nav-anim">
                   <span class="menu-icon lnr lnr-book"></span>
                   <span class="link-text">Blog</span>
@@ -746,25 +746,40 @@
                         <li>
                           <a
                             class="filter btn btn-sm btn-link"
-                            data-group="category_detailed"
-                            >Detailed</a
+                            data-group="category_golang"
+                            >Golang</a
                           >
                         </li>
                         <li>
                           <a
                             class="filter btn btn-sm btn-link"
-                            data-group="category_mockups"
-                            >Mockups</a
+                            data-group="category_javascript"
+                            >Javascript</a
                           >
                         </li>
                         <li>
                           <a
                             class="filter btn btn-sm btn-link"
-                            data-group="category_soundcloud"
-                            >SoundCloud</a
+                            data-group="category_python"
+                            >Python</a
                           >
                         </li>
                         <li>
+                          <a
+                            class="filter btn btn-sm btn-link"
+                            data-group="category_html_css"
+                            >HTML/CSS</a
+                          >
+                        </li>
+                        
+                        <li>
+                          <a
+                            class="filter btn btn-sm btn-link"
+                            data-group="category_java"
+                            >Java</a
+                          >
+                        </li>
+                        <!--<li>
                           <a
                             class="filter btn btn-sm btn-link"
                             data-group="category_vimeo-videos"
@@ -777,12 +792,12 @@
                             data-group="category_youtube-videos"
                             >YouTube Videos</a
                           >
-                        </li>
+                        </li>-->
                       </ul>
 
                       <!-- Portfolio Grid -->
                       <div class="portfolio-grid three-columns">
-                        <figure
+                        <!--<figure
                           class="item lbaudio"
                           data-groups='["category_all", "category_soundcloud"]'
                         >
@@ -802,20 +817,122 @@
                                     <i class="fa fa-volume-up"></i>
                                     <h4 class="name">SoundCloud Audio</h4>
                                     <span class="category">SoundCloud</span>
-                                    </figure>
+                                    </figure>-->
 
-                                    <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                                    <!--                -->
+                                    <!--    Projects    -->
+                                    <!--                -->
+
+                                    <figure class="item standard" data-groups='["category_all", "category_golang"]'>
                                         <div class="portfolio-item-img">
-                                            <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
-                                            <a href="portfolio-1.html" class="ajax-page-load"></a>
+                                            <img src="https://raw.githubusercontent.com/layer5io/meshsync/master/.github/readme/images/meshsync.svg" alt="Meshery Kubernetes Operator" title="" />
+                                            <a href="https://github.com/meshery/meshsync"></a>
                                         </div>
 
                                         <i class="far fa-file-alt"></i>
-                                        <h4 class="name">Detailed Project 2</h4>
-                                        <span class="category">Detailed</span>
+                                        <h4 class="name">Meshery Kubernetes Operator</h4>
+                                        <span class="category">Projects</span>
                                     </figure>
 
-                                    <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
+                                    <figure class="item standard" data-groups='["category_all", "category_golang", "category_javascript", "category_html_css"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/meshery/meshery-logo-tag-light-text-side.png" alt="Meshery" title="" />
+                                            <a href="https://github.com/meshery/meshery"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Meshery</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_golang"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="https://raw.githubusercontent.com/layer5io/service-mesh-performance/master/docs/assets/spec/readme/smp-dark-text-side.svg" alt="Service Mesh Performance" title="" />
+                                            <a href="https://github.com/service-mesh-performance/service-mesh-performance"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Service Mesh Performance</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_golang", "category_java"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/jmeter.webp" alt="Jmeter helper CLI" title="" />
+                                            <a href="pages/projects/jmeter.html" class="ajax-page-load"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Jmeter helper CLI</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_golang"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/bucky.png" alt="GoBucky" title="" />
+                                            <a href="https://github.com/realnighthawk/bucky"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Go Bucky</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_golang"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/email.jpg" alt="Go Email" title="" />
+                                            <a href="pages/projects/email.html"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Go Email</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_javascript", "category_html_css"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/notes.webp" alt="Notes Application" title="" />
+                                            <a href="pages/projects/notes.html"></a>
+                                        </div>
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Notes Application</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_golang"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/argo.png" alt="Argo Sidecar" title="" />
+                                            <a href="pages/projects/argo.html" class="ajax-page-load"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Argo Sidecar</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_python", "category_html_css"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/chat.png" alt="Chat Application" title="" />
+                                            <a href="pages/projects/chat.html" class="ajax-page-load"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Chat Application</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <figure class="item standard" data-groups='["category_all", "category_python"]'>
+                                        <div class="portfolio-item-img">
+                                            <img src="img/projects/dhcp.png" alt="Wireless DHCP starvation module" title="" />
+                                            <a href="pages/projects/dhcp.html" class="ajax-page-load"></a>
+                                        </div>
+
+                                        <i class="far fa-file-alt"></i>
+                                        <h4 class="name">Wireless DHCP starvation module</h4>
+                                        <span class="category">Projects</span>
+                                    </figure>
+
+                                    <!--<figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
                                         <div class="portfolio-item-img">
                                             <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title="" />
                                             <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
@@ -824,20 +941,9 @@
                                         <i class="fas fa-video"></i>
                                         <h4 class="name">Vimeo Video 1</h4>
                                         <span class="category">Vimeo Videos</span>
-                                    </figure>
+                                    </figure>-->
 
-                                    <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
-                                        <div class="portfolio-item-img">
-                                            <img src="img/portfolio/4.jpg" alt="Media Project 1" title="" />
-                                            <a href="portfolio-1.html" class="ajax-page-load"></a>
-                                        </div>
-
-                                        <i class="far fa-file-alt"></i>
-                                        <h4 class="name">Detailed Project 1</h4>
-                                        <span class="category">Detailed</span>
-                                    </figure>
-
-                                    <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                                    <!--<figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                                         <div class="portfolio-item-img">
                                             <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
                                             <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
@@ -857,7 +963,7 @@
                                         <i class="fas fa-video"></i>
                                         <h4 class="name">YouTube Video 1</h4>
                                         <span class="category">YouTube Videos</span>
-                                    </figure>
+                                    </figure>-->
                                 </div>
                             </div>
                             <!-- End of Portfolio Content -->
